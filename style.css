@@ -57,13 +57,43 @@ body {
 
 .line2_right {
     margin-right: 480px;
+    margin-bottom: 10px;
     display: flex;
 }
 
 .middle1 {
     border: 1px solid rgba(9, 117, 171, 0.831);;
     display: flex;
+    flex-direction: column;
+    justify-content: center;    
 }
+
+.middle1 > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.mid1_information {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 50px;
+  }
+
+.mid1_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+  }
+
+.mid1_info img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid rgb(38, 108, 183);
+    border-radius: 10px;
+} 
 
 .middle2 {
     border: 1px solid rgba(9, 117, 171, 0.831);;
