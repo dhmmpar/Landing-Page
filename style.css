@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .header1 {
@@ -62,7 +63,7 @@ body {
 }
 
 .middle1 {
-    border: 1px solid rgba(9, 117, 171, 0.831);;
+    border: 1px solid rgba(9, 117, 171, 0.831);
     display: flex;
     flex-direction: column;
     justify-content: center;    
@@ -120,7 +121,7 @@ body {
 
 .bottom {
     display: flex;
-    padding: 20px;
+    padding: 36px;
 }
 
 .bottom_container {
@@ -165,8 +166,10 @@ body {
 }
 
 .footer {
-    border: 1px solid rgba(9, 117, 171, 0.831);;
     display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
 }
 
 ul {
